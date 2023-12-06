@@ -1,4 +1,6 @@
-
+*{  
+    background-color: chocolate;
+}
 img{    
     margin-left: auto;
     margin-right: auto;
@@ -9,13 +11,41 @@ img{
 
 .center{    
     text-align: center;
+    margin:8px;
+
 }
 
 ul.ulcenter{  
     display: inline-block;
     text-align: left;
+    background-color: burlywood;
+    margin:8px;
+    padding: 16px;
+    border-color: sienna;
+    border-style: solid;
+    
+}
+
+ol.olright{
+        background-color: burlywood;
+        border-color: sienna;
+        border-style: solid;
+        
 }
 
 .description{   
     text-align: center;
+    background-color: burlywood;
+    padding: 0px auto;
+    border-color: sienna;
+    border-style: solid;
+    
+}
+
+li{
+    background-color: transparent;
+}
+
+a{
+    background-color: transparent;
 }
